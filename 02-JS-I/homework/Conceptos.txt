@@ -1,0 +1,18 @@
+Variables: Las variables(var, let, const) son como una caja donde guardaras algun objeto.
+En este caso la caja es un espacio en memoria donde almacenaras un valor.
+
+Strings:  Las string(str) es cualquier tipo de dato que esten encerradas en comillas('simples',"dobles" ).
+Se convierten en una cadena de caracteres.
+
+Funcionces: Las funciones(function) permiten ejecutar un grupo de procedimientos.
+Dependiendo de los Argumentos y la meta.
+
+
+Argumentos: Los argumentos son valores que se le asignan a una funcion o cualquier.
+Por ejemplo: function ejemplo(argumentos)
+
+Return: Return es una sentencia, su objetivo es devolver un resultado.
+
+Booleanos: Existen dos Booleanos(true y false), significa 0 y 1, true = verdadero
+false = falso
+Por ejemplo: 4 es menor a 2 ? la respuesta seria falso(false).  
