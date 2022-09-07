@@ -10,10 +10,10 @@ const nuevoNum = 20;
 const nuevoBool = true;
 
 // Resuelve el siguiente problema matemático:
-const nuevaResta = 10 - null === 10;
+const nuevaResta = 10 - 5 === 5;
 
 // Resuelve el siguiente problema matemático:
-const nuevaMultiplicacion = 10 * null === 0;
+const nuevaMultiplicacion = 10 * 4 === 40;
 
 // Resuelve el siguiente problema matemático:
 const nuevoModulo = 21 % 5 === 1;
@@ -64,9 +64,11 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (x == y ) {
+  if (x === y ) {
     return true;
-  }else return false; 
+  }else { 
+    return false;  
+  } 
   
 }
 
@@ -74,9 +76,11 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (str1.length == str2.length) {
+  if (str1.length === str2.length) {
     return true;
-  }else return false;
+  }else { 
+    return false;  
+  }
    
 }
 
@@ -86,7 +90,9 @@ function menosQueNoventa(num) {
   // Tu código:
   if (num < 90) {
     return true;
-  }else return false;
+  }else {
+    return false;  
+  }
   
 }
 
@@ -96,7 +102,9 @@ function mayorQueCincuenta(num) {
   // Tu código:
   if (num > 50) {
     return true;
-  }else return false;
+  }else {
+    return false;
+  }
   
 }
 
@@ -113,7 +121,9 @@ function esPar(num) {
   // Tu código:
   if (num % 2 == 0) {
     return true;
-  }else return false;
+  }else {
+    return false; 
+  }
   
 }
 
@@ -123,7 +133,9 @@ function esImpar(num) {
   // Tu código:
   if (num % 2 == 1) {
     return true;
-  }else return false;
+  }else {
+    return false; 
+  }
   
 }
 
@@ -178,13 +190,14 @@ function esPositivo(numero) {
   if (numero > 0){
     return "Es positivo"
   }
-  if (numero < 0){
+  else if (numero < 0){
     return "Es negativo"
   }
-  if (numero === 0){
+  else {
     return false;
   }
- }
+  }
+ 
 
   
 
@@ -263,10 +276,13 @@ function esVocal(letra){
   var vocales = ['a', 'e', 'i', 'o', 'u'];
   if (letra.length !== 1) {
     return "Dato incorrecto";
-  }else if (vocales.includes(letra)){
-    return "Es vocal"
-  }else return "Dato incorrecto"
-  
+  }
+  else if (vocales.includes(letra)){
+    return "Es vocal";
+  }
+  else { 
+    return "Dato incorrecto";
+   }
 }
 
 
