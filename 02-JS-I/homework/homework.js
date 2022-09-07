@@ -252,7 +252,7 @@ function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
   var area = base * altura / 2;
-  return area;
+  return  area;
 
 }
 
